@@ -1,0 +1,92 @@
+[{
+  "id": 1,
+  "title": "React JWT Authentication — Kimlik Doğrulama",
+  "img": "https://res.cloudinary.com/dl7u49phz/image/upload/v1714918043/blog__postBanner_ufi40q.webp",
+  "text": "Genellikle kimlik doğrulama(authentication) da tercih edilmektedir. Kullanıcı oturum açtıktan sonra (bunu yaparken kullanıcı adı, şifre gibi bilgileri servise iletir), sonraki her istek kullanıcı bilgilerinin doğrulanması sonucu oluşan JWT’i içerir ve bu kullanıcıların uygulamanın farklı kısımlarına(private API’lara erişim gibi) gidebilmesini, servislere ulaşabilmesini sağlar.",
+  "date": "6 Mayıs Pazartesi",
+  "link": "/Blog/Post/",
+  "tags": [
+    "react",
+    "jwt",
+    "kimlik",
+    "frameworks",
+    "mern"
+  ],
+  "content": "https://res.cloudinary.com/dl7u49phz/raw/upload/v1716062978/React-Functional-Components_qgk799_rlwzqe.md"
+},
+{
+  "id": 2,
+  "title": "React'a Başlarken | Yol Haritası",
+  "img": "https://res.cloudinary.com/dl7u49phz/image/upload/v1714918044/blog__postBanner3_erqksr.webp",
+  "text": "Benim sıfırdan React öğrenme yolculuğumda yol gösterici olmuş bir yazıdır. React öğrenmeye yeni başlayan arkadaşların, veya kendini geliştirmek isteyen ama sonraki adımdan emin olamayan arkadaşların faydalı bulabileceği bu makaleyi Türkçe’ye çevirmek istedim. Umarım sizlerde faydalı bulursunuz :)",
+  "date": "19 Mayıs Pazar",
+  "link": "/Blog/Post/",
+  "tags": [
+    "react",
+    "frameworks",
+    "başlarken",
+    "redux",
+    "kaynak",
+    "döküman",
+    "yol",
+    "harita",
+    "patika"
+  ],
+  "content": "https://res.cloudinary.com/dl7u49phz/raw/upload/v1716121482/React-Yol-Haritasi_gohby5.md"
+},
+{
+  "id": 3,
+  "title": "React State Yönetimi: Context Api vs Redux",
+  "img": "https://res.cloudinary.com/dl7u49phz/image/upload/v1716125003/state-management_bqxqlf.png",
+  "text": "React ile geliştirme yapan herkesin en çok ihtiyaç duyduğu yapılardan biri component’lar arasında kullanılabilecek global bir state yapısıdır. Oturum açan kullanıcının bilgileri, uygulama arayüz dili, eğer raporlama uygulaması ise ana veri gibi her sayfadan erişebilir bir state ihtiyacı ile çoğu zaman karşılaşıyoruz. Redux ve Context API bu noktada bize cevap veren iki adet yaklaşım. Fakat aralarındaki farklar ne?",
+  "date": "19 Mayıs Pazar",
+  "link": "/Blog/Post/",
+  "tags": [
+    "react",
+    "frameworks",
+    "redux",
+    "kaynak",
+    "döküman",
+    "context",
+    "api",
+    "state",
+    "yönetim"
+  ],
+  "content": "https://res.cloudinary.com/dl7u49phz/raw/upload/v1716124884/React-State-Management_ewzkke.md"
+},
+{
+  "id": 4,
+  "title": "Figma'da İşinizi Hızlandıracak 40 Kısayol",
+  "img": "https://res.cloudinary.com/dl7u49phz/image/upload/v1716124533/figma.png",
+  "text": "Tasarım sürecinde zaman kazanmak, kreatif kalmayı tetikliyor. Tasarım içinde kaybolduğumuz zaman yaratıcılık gittikçe azalıyor. Bu nedenle; tasarlarken kısayolları ve hızlı yöntemleri her zaman severim. Özellikle bir programda ustalaşmak istediğim zaman bu yönetmleri uygulamanın vakti gelmiş diye düşünürüm. Not: Window’ta Cmd tuşu Ctrl, Option tuşu Alt yerine geçer.",
+  "date": "19 Mayıs Pazar",
+  "link": "/Blog/Post/",
+  "tags": [
+    "figma",
+    "ui",
+    "ux",
+    "tasarım",
+    "design",
+    "uiux"
+  ],
+  "content": "https://res.cloudinary.com/dl7u49phz/raw/upload/v1716124883/figma-isinizi-hizlandiracak-40-ipucu_ljz6lb.md"
+},
+{
+  "id": 5,
+  "title": "Li-Fi Bir Kablosuz Ağ Devrimi mi ?",
+  "img": "https://res.cloudinary.com/dl7u49phz/image/upload/v1714918043/blog__postBanner2_q9ieqi.webp",
+  "text": "Wi-Fi hayatımızda çok büyük bir yer kaplıyor. Hatta birçok ankete göre, katılımcıların onsuz yaşayamayacakları bir numaralı şey. Ancak dünyanın neresinde olursanız olun, hepimiz muhtemelen bir noktada internet bağlantısı sorunları yaşamışızdır. İşte tam da bu noktalar Li-Fi teknolojisini ortaya çıkardı.",
+  "date": "18 Mayıs Cumartesi",
+  "link": "/Blog/Post/",
+  "tags": [
+    "li-fi",
+    "yazilim",
+    "dünyasi",
+    "kablosuz",
+    "ağ",
+    "network",
+    "internet"
+  ],
+  "content": "https://res.cloudinary.com/dl7u49phz/raw/upload/v1716127101/li-fi_t3djvg.md"
+}
+]

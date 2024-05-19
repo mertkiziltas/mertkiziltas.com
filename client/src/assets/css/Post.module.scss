@@ -1,0 +1,148 @@
+.postPage {
+  width: 100%;
+  height: 100%;
+
+  & .container {
+    padding: 12vh 3em 2em 3em;
+
+    & h2{
+      font-size: 1.6rem;
+      margin-bottom: 2em;
+    }
+    & p{
+      font-size: 1rem;
+      margin-bottom: 1em;
+    }
+    & h2,h3,h4{
+      margin-bottom: 1em;
+    }
+    & img{
+      width: 100%;
+      margin-bottom: 1em;
+    }
+    & li{
+      font-size: 1.2rem;
+    }
+  }
+}
+  // FOOTER
+  .footer {
+    display: flex;
+    justify-content: center;
+
+    &__content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      width: 90vw;
+      height: fit-content;
+      background-color: #fbfbfd;
+      box-shadow: 5px 5px 6px 8px rgba($color: #000000, $alpha: 0.1);
+      margin-bottom: 2em;
+      border-radius: 10px;
+      gap: 1em;
+    }
+
+    &__content a {
+      width: 40%;
+      height: fit-content;
+    }
+
+    &__content a img {
+      width: 100%;
+      height: 100%;
+    }
+
+    &__content span {
+        font-size: 0.5rem;
+      color: #7d7d7d;
+    }
+
+    &__content ul {
+      padding: 0;
+      margin: 0;
+      margin-right: 2em;
+      list-style: none;
+    }
+
+    &__content ul a {
+      text-decoration: none;
+    }
+
+    &__content ul a h2 {
+      font-size: 0.7rem;
+      color: #000000;
+      font-weight: 200;
+    }
+  }
+
+// MEDIA QUERIES DESKTOP
+@media screen and (min-width: 601px) {
+  .postPage {
+    width: 100%;
+    height: 100%;
+
+    & .container {
+      padding: 20vh 25vw 2vw 25vw;
+
+      & p{
+        font-size: 1.4rem;
+      }
+    }
+  }
+    // FOOTER
+    .footer {
+      display: flex;
+      justify-content: center;
+  
+      &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        width: 90vw;
+        height: fit-content;
+        background-color: #fbfbfd;
+        box-shadow: 5px 5px 6px 8px rgba($color: #000000, $alpha: 0.1);
+        margin-bottom: 2em;
+        border-radius: 10px;
+      }
+  
+      &__content a {
+        width: 12%;
+        height: 10%;
+      }
+  
+      &__content a img {
+        width: 100%;
+        height: 100%;
+      }
+  
+      &__content span {
+        font-size: 0.8rem;
+        color: #7d7d7d;
+      }
+  
+      &__content ul {
+        padding: 0;
+        margin: 0;
+        margin-right: 2em;
+        list-style: none;
+      }
+  
+      &__content ul a {
+        text-decoration: none;
+      }
+  
+      &__content ul a h2 {
+        font-size: 1rem;
+        color: #000000;
+        font-weight: 200;
+      }
+  
+      &__content ul a h2:hover {
+        color: #c217ce;
+      }
+    }
+}

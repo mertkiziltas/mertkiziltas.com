@@ -1,0 +1,40 @@
+.BlogMakerElement{
+    display: block;
+    width: 100%;
+    margin-bottom: 2em;
+    border-radius: 10px;
+
+    &__buttonWrapper{
+        display: flex;
+        justify-content: end;
+        gap: 1em;
+    }
+
+    & button{
+        width: 20%;
+        padding: 2px 5px;
+        border: none;
+        background-color: #2aabe2;
+        border-radius: 7px;
+        color: #ffffff;
+    }
+    & textarea{
+        display: block;
+        width: 100%;
+        margin-top: 1em;
+        background-color: #fff;
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    & input{
+        width: 90%;
+        padding: 5px 10px;
+        margin-top: 1em;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        margin-bottom: 2em;
+    }
+}

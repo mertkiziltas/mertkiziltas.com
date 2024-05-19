@@ -1,0 +1,91 @@
+/* Card */
+.projectCard {
+  display: block;
+  text-align: center;
+  background-color: #fbfbfd;
+  min-width: 28vw;
+  min-height: 32vw;
+  border-radius: 20px;
+  box-shadow: 5px 5px 6px 8px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  margin-right: 2em;
+}
+
+.projectCard__img {
+  max-width: 100%;
+  height: 50%;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+
+.projectCard__title {
+  display: block;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+  text-align: center;
+  background: -webkit-linear-gradient(left, #ee41dc, #666666);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #ee41dc, #666666);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #ee41dc, #666666);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #ee41dc, #666666);
+  /* Standard */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projectCard__text {
+  padding: 0px 2em;
+  margin-bottom: 2em;
+}
+
+.projectCard__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.projectCard__demoBtn {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 0.5em;
+  padding: 2% 5%;
+  border: 1px solid #ee41dc;
+  font-size: large;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.projectCard__githubBtn {
+  border-radius: 30px;
+  padding: 1% 9%;
+  background-color: #000;
+}
+
+// MEDIA-QUERIES
+@media screen and (max-width: 600px) {
+  .projectCard{
+    width: fit-content;
+    height: fit-content;
+    font-size: 0.5rem;
+    margin: 1em;
+  }
+  .projectCard__title{
+    font-size: 1rem;
+  }
+  .projectCard__text{
+    padding: 0;
+  }
+  .projectCard__demoBtn{
+    font-size: 0.5rem;
+  }
+  .projectCard__githubBtn svg{
+    width: 2em;
+    height: 2em;
+  }
+
+}
