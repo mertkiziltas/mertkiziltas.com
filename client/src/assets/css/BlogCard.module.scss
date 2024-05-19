@@ -12,6 +12,7 @@
     & img {
         width: 10em;
         height: fit-content;
+        max-height: 10em;
         border-radius: 10px;
     }
     &__date{

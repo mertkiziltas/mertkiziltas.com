@@ -746,7 +746,7 @@ function Content() {
         <span className={ContentCSS["blog__title"]}>Blog</span>
         <div className={ContentCSS["blog__subHeader"]}>
           <span>Yazılım Dünyası</span>
-          <Link to={"/Blog/Search/yazilim"}>
+          <Link to={"/Blog/"}>
             Tümünü gör
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -787,7 +787,7 @@ function Content() {
         </div>
         <div className={ContentCSS["blog__subHeader"]}>
           <span>Framework ve Kütüphaneler</span>
-          <Link to={"/Blog/Yazilim"}>
+          <Link to={"/Blog/Search/frameworks"}>
             Tümünü gör
             <svg
               xmlns="http://www.w3.org/2000/svg"

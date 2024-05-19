@@ -1,0 +1,33 @@
+/* src/InputModal.css */
+.modal {
+    position: fixed;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: none;
+    border: none;
+    margin-top: 1em;
+}
+
+.modal-input {
+    width: 70vw;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.modal-input:focus {
+    border: none;
+    outline: none;
+}
